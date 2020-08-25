@@ -1,0 +1,17 @@
+.phoneCard-wrapper {
+  display: flex;
+  align-items: center;
+
+  padding: 20px 40px;
+  background: #4d74ee;
+  border-radius: 10px;
+}
+
+.phoneCard-wrapper .separator {
+  height: 61px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.22;
+  margin: 0 50px;
+  border-width: 0.5px;
+}
