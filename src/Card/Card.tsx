@@ -9,6 +9,7 @@ export default class Card extends React.Component {
       <div className="card-wrapper">
         <h1 className="title">The meeting is ready</h1>
         <PhoneCard />
+        <span className="more">More phone numbers</span>
       </div>
     );
   }

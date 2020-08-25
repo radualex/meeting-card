@@ -8,7 +8,6 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   color: #ffffff;
@@ -21,4 +20,27 @@
   line-height: 33px;
 
   text-align: center;
+
+  margin: 0 0 31px 0;
+}
+
+.card-wrapper .more {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-decoration-line: underline;
+  user-select: none;
+
+  margin: 20px 0 67px 0;
+}
+
+.card-wrapper .more:hover {
+  cursor: pointer;
+  color: #e7e7e7;
+}
+
+.card-wrapper .more:active {
+  color: #000000;
 }
