@@ -1,0 +1,23 @@
+.button-wrapper {
+  border-radius: 10px;
+  width: 189px;
+  height: 63px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper:hover {
+  cursor: pointer;
+}
+
+.button-wrapper .content {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+  user-select: none;
+}

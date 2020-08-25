@@ -44,3 +44,9 @@
 .card-wrapper .more:active {
   color: #000000;
 }
+
+.card-wrapper .buttons-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 11px;
+}
